@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <script
+    src="https://kit.fontawesome.com/4de83895e4.js"
+    crossorigin="anonymous"
+  ></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <meta name="description" content="This website will help you to grow as a sportsman and will help you to improve your health">
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Team</title>
+  </head>
+  <body>
+    <header>
+      <div id="headernav">
+      </div>
+      <a href="index.html"><h1>LOGO</h1></a>
+      <p>Company Name</p>
+      <!-- <div class="headernav">
+        <a href="index.html"><h1>LOGO</h1> </a>
+        <p>Company Name</p>
+        <nav>
+          <ul>
+            <li><a href="../HTML/index.html">Home</a></li>
+            <li><a href="../HTML/aboutus.html">About Us</a></li>
+            <li><a href="../HTML/classes.html">Classes</a></li>
+            <li><a href="ourteam.html">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a class="contact" href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div> -->
+      <div class="headerdiv">
+        <h2>Where Fitness Becomes Your Lifestyle</h2>
+          <a href="booking.html">Join Now</a>
+    </header>
+    <main>
+
+
+        <div class="ourteamhead">
+            <h2>our Team</h2>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. The instructor will focus on correct form and provide modifications or alternative exercises if needed.</p>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="img/ourteamimg1.png" alt="TrainerSerjioRamos" />
+          </div>
+          <div class="item">
+            <img src="img/ourteamimg2.png" alt="TrainerGeorgeRamos" />
+          </div>
+          <div class="item">
+            <img src="img/ourteamimg3.png" alt="TrainerAnnaRamos" />
+          </div>
+          <div class="item">
+            <img src="img/ourteamimg4.png" alt="TrainerSarahRamos" />
+          </div>
+          <div class="item">
+            <img src="img/ourteamimg5.png" alt="TrainerElsaRamos" />
+          </div>
+          <div class="item">
+            <img src="img/ourteamimg6.png" alt="TrainerTaniaRamos" />
+          </div>
+          <div class="item">
+            <img src="img/ourteamimg7.png" alt="TrainerLucaRamos" />
+          </div>
+          <div class="item">
+            <img src="img/ourteamimg8.png" alt="TrainerElennaRamos" />
+          </div>
+        </div>
+        <div class="messagebutton" onclick="showmessagebox()">
+          <i class="fa-regular fa-message"></i>
+        </div>
+        <div class="messagebox" id="messagebox">
+          <div class="messagetop">
+            <p>Text us</p>
+            <p class="closesign" onclick="hidemessagebox()">&#x2715;</p>
+          </div>
+          <div class="messagemain">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="arefortext"
+              id="arefortext"
+              cols="30"
+              rows="10"
+              placeholder="Write your comment"
+              required
+            ></textarea>
+          </div>
+          <div class="messagefoot">
+            <i class="fa-regular fa-paper-plane" onclick="hidemessagebox()"></i>
+          </div>
+        </div>
+
+
+
+        <!-- <div class="ourteamimages">
+          <div class="ourteamimg">
+            <img src="img/ourteamimg1.png" alt="TrainerSerjioRamos">
+            <h3>serjio Ramos</h3>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. The instructor will focus on correct form and provide modifications or alternative exercises if needed.</p>
+          </div>
+          <div class="ourteamimg">
+            <img src="img/ourteamimg2.png" alt="TrainerGeorgeRamos">
+            <h3>george Ramos</h3>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. </p>
+          </div>
+          <div class="ourteamimg">
+            <img src="img/ourteamimg3.png" alt="TrainerAnnaRamos">
+            <h3>anna Ramos</h3>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. At O2 Fitness we have over 30 types of Studio Fitness </p>
+          </div>
+          <div class="ourteamimg">
+            <img src="img/ourteamimg4.png" alt="TrainerSarahRamos">
+            <h3>sarah Ramos</h3>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. The instructor will focus on correct form and provide modifications or alternative exercises</p>
+          </div>
+          <div class="ourteamimg">
+            <img src="img/ourteamimg5.png" alt="TrainerElsaRamos">
+            <h3>elsa Ramos</h3>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. The instructor will focus on correct form and provide modifications or alternative exercises if needed.</p>
+          </div>
+          <div class="ourteamimg">
+            <img src="img/ourteamimg6.png" alt="TrainerTaniaRamos">
+            <h3>tania Ramos</h3>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. The instructor will focus on correct form and provide modifications or alternative exercises</p>
+          </div>
+          <div class="ourteamimg">
+            <img src="img/ourteamimg7.png" alt="TrainerLucaRamos">
+            <h3>luca Ramos</h3>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. At O2 Fitness we have over 30 types of Studio Fitness </p>
+          </div>
+          <div class="ourteamimg">
+            <img src="img/ourteamimg8.png" alt="TrainerElennaRamos">
+            <h3>elenna Ramos</h3>
+            <p>At O2 Fitness we have over 30 types of Studio Fitness classes, for all fitness levels. The instructor will focus on correct form and provide modifications or alternative exercises</p>
+          </div>
+        </div> -->
+    </main>
+    <footer><div class="footermain">
+      <div class="footertab">
+        <h3>Company name</h3>
+        <p>
+          Taking care of homes and those in them is what we do best. We firmly
+          believe a healthy home is a clean home!
+        </p>
+      </div>
+      <div class="footertab">
+        <h3>Contact Info</h3>
+        <p>
+          Adress: city; street; building; Email: namesurname@gmail.com Number:
+          +1 543 223 3456
+        </p>
+      </div>
+      <div class="footertab">
+        <h3>Lets Connect!</h3>
+        <div class="footerlinks">
+          <a href="https://www.facebook.com/lursmanashvili8/" rel="follow"
+            ><img src="img/fb.png" alt="facebooklogo"
+          /></a>
+          <a href="https://www.whatsapp.com/" rel="follow"
+            ><img src="img/whatsapp.png" alt="whatsapplogo"
+          /></a>
+          <a href="https://www.youtube.com/watch?v=sElE_BfQ67s" rel="follow"
+            ><img src="img/youtube.png" alt="youtubelogo"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="js/message.js"></script>
+  <script src="js/header.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
